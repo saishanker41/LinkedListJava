@@ -1,6 +1,6 @@
 com/bridgelabs/javalinkedlist/INode.java
  com.bridgelabs.javalinkedlist.INode
-com/bridgelabs/MyLinkedList.java
- com.bridgelabs.MyLinkedList
 com/bridgelabs/javalinkedlist/myNode.java
  com.bridgelabs.javalinkedlist.myNode
+com/bridgelabs/MyLinkedList.java
+ com.bridgelabs.MyLinkedList
