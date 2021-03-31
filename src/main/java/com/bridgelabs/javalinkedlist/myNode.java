@@ -1,8 +1,8 @@
 package com.bridgelabs.javalinkedlist;
 
-public class myNode<K> {
+public class myNode<K> implements INode<K> {
     private K key;
-    private myNode next;
+    private INode next;
 
 
     public myNode(K key) {
@@ -10,11 +10,21 @@ public class myNode<K> {
         this.next = null;
     }
 
-    public myNode getNext() {
+    @Override
+    public K getkey() {
+        return key;
+    }
+
+    @Override
+    public void setkey(K key) {
+        this.key = key;
+    }
+
+    public INode getNext() {
         return next;
     }
 
-    public void setNext(myNode next) {
+    public void setNext(INode next) {
         this.next = next;
     }
 }

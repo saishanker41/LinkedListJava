@@ -1,2 +1,4 @@
 com/bridgelabs/javalinkedlist/MyNodeTest.java
  com.bridgelabs.javalinkedlist.MyNodeTest
+com/bridgelabs/javalinkedlist/MyLinkedListTest.java
+ com.bridgelabs.javalinkedlist.MyLinkedListTest
